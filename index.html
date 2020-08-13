@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <title>GetViral | Edit FAQ</title>
+</head>
+<body>
+    
+    <!-- Start modals -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+    
+    <div class="modal fade modal1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="w-100 row px-3">
+                        <div class="col-10 col-sm-11 text-center d-flex justify-content-start justify-content-sm-center align-items-center">
+                            <h5 class="modal-title pl-md-3 text_caption font-weight-bold" id="exampleModalLabel">Edit FAQ</h5>
+                        </div>
+                        <div class="col-2 col-sm-1">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="text_larger font-weight-light" aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-group">
+                                <label for="Question">Question</label>
+                                <input type="text" placeholder="Question" class="form-control text_smaller" id="Question">
+                            </div>
+                            <div class="form-group">
+                                <label for="Answer">Answer</label>
+                                <textarea name="Answer" id="Answer" cols="30" rows="10" class="form-control text_smaller" placeholder="Answer"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer pt-0 d-flex justify-content-center align-items-center">
+                    <button class="bg_primary mr-3 ml-4 hide-modal-1" data-dismiss="modal" aria-label="close">
+                        <span class="text_small text_light">Save</span> 
+                    </button>
+                    <button class="bg_red ml-3" data-dismiss="modal" aria-label="close">
+                            <span class="text_small text_light">Cancel</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- boostrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
